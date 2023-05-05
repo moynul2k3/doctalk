@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DocTime with Bootstrap</title>
+
+  <!-- ...favicon..... -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/android-chrome-192x192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- ........box-icon....... -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- ........main-style........ -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- ..........Navbar............ -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="assets/images/brand_logos/main_logo.png" alt="DocTalk" class="main_logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <i class='bx bx-menu bx-md'></i>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto text-center ">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#specialists" class="nav-link">Our Specialists</a>
+          </li>
+          <li class="nav-item">
+            <a href="#activity" class="nav-link">Activity</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link btn p-2 ms-lg-4 ms-0">Get Appointment</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ........Hero Section............. -->
+  <div class="container">
+    <div class="row pb-5 pb-lg-0" id="home">
+      <div>
+        <img src="assets/images/image03.webp" class="hero-bg d-lg-none" alt="">
+      </div>
+      <div class="col-lg-6 col-sm-12 hero_text d-flex flex-column justify-content-center">
+        <h1>Generalized Innovative <br>Care Services</h1>
+        <p>"DocTime" is a Medical Consultation and Second Opinion leader providing second opinion consultation service
+          in all areas of medicine, including radiology. Utilizing the power of the internet, we are connecting patients
+          around the globe with some
+          of the world's best doctors.</p>
+        <a href="#contact" class="btn">Get Appointment</a>
+      </div>
+      <div class="col-lg-6 col-sm-12 d-none d-lg-block">
+        <img src="assets/images/moynul.png" class="hero_img" alt="Dr. Photo">
+      </div>
+    </div>
+
+    <!-- Global Style -->
+    <!-- 
+      <div class="row pt-5 mt-5 row-cols-1 text-center" id="specialists">
+        <div class="col">
+          <h2>Our Specialists</h2>
+          <hr>
+          <p class="ps-lg-5 pe-lg-5 p-0">24/7 qualified doctor's consultation facility for your family. Also big save on diagnostic
+            tests,
+            medicine and healthcare product purchases with life & health insurance coverage</p>
+        </div>
+        <div class="col">
+      
+        </div>
+      </div> 
+
+      -->
+
+
+
+
+
+
+    <!-- .........about........ -->
+    <div class="row pt-5 mt-lg-5 row-cols-1 text-center" id="about">
+      <div class="col">
+        <p class="pb-0 mb-0">Get medical help</p>
+        <h2>Just in few taps!</h2>
+        <hr>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-lg-flex  rounded-3 overflow-hidden">
+              <div class="text_box text-start d-flex align-items-center col-lg-6 p-4 p-lg-5">
+                <div class="img ps-lg-5 pe-3">
+                  <img src="assets/images/services/Instant_electronics_prescription.svg" alt="verified__doctors">
+                </div>
+                <div>
+                  <h4 class="card-title">Instant electronics prescription</h4>
+                  <p class="card-text">As soon as the consultation is complete, doctor will provide the electronic
+                    prescription for the patient to download
+                    instantly or later.</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <img src="assets/images/image01.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-lg-flex rounded-3 overflow-hidden">
+              <div class="col-lg-6">
+                <img src="assets/images/image02.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="text_box text-start d-flex align-items-center col-lg-6 p-4 p-lg-5">
+                <div class="img p-3">
+                  <img src="assets/images/services/Instant_electronics_prescription.svg" alt="verified__doctors">
+                </div>
+                <div class="pe-lg-5">
+                  <h4 class="card-title">Instant electronics prescription</h4>
+                  <p class="card-text">As soon as the consultation is complete, doctor will provide the electronic
+                    prescription for the patient to download
+                    instantly or later.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-lg-flex rounded-3 overflow-hidden">
+              <div class="text_box text-start d-flex align-items-center col-lg-6 p-4 p-lg-5">
+                <div class="img ps-lg-5 pe-3">
+                  <img src="assets/images/services/Instant_electronics_prescription.svg" alt="verified__doctors">
+                </div>
+                <div>
+                  <h4 class="card-title">Instant electronics prescription</h4>
+                  <p class="card-text">As soon as the consultation is complete, doctor will provide the electronic
+                    prescription for the patient to download
+                    instantly or later.</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <img src="assets/images/image03.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ...........Our Services........... -->
+    <div class="row pt-5 mt-5 row-cols-1 text-center" id="services">
+      <div class="col">
+        <h2>Our Services</h2>
+        <hr>
+        <p class="ps-lg-5 pe-lg-5 p-0">24/7 qualified doctor's consultation facility for your family. Also big save on
+          diagnostic
+          tests,
+          medicine and healthcare product purchases with life & health insurance coverage</p>
+      </div>
+      <div class="row g-3">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card">
+            <div class="card-body text-start d-lg-flex d-md-block d-sm-flex">
+              <div class="img p-3">
+                <img src="assets/images/services/verified__doctors.svg" alt="verified__doctors">
+              </div>
+              <div>
+                <h4 class="card-title">Verified doctors</h4>
+                <p class="card-text">Every doctors on DocTime platform are BMDC certified. We verify relevant
+                  information before the
+                  doctor can consult any
+                  patient.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card">
+            <div class="card-body text-start d-lg-flex d-md-block d-sm-flex">
+              <div class="img p-3">
+                <img src="assets/images/services/instant__video__consultation.svg" alt="verified__doctors">
+              </div>
+              <div>
+                <h4 class="card-title">Instant video consultation</h4>
+                <p class="card-text">Most of our consultations starts within 10 minutes of making payment. The video
+                  call is secured by 256 bit encryption</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card">
+            <div class="card-body text-start d-lg-flex d-md-block d-sm-flex">
+              <div class="img p-3">
+                <img src="assets/images/services/Instant_electronics_prescription.svg" alt="verified__doctors">
+              </div>
+              <div>
+                <h4 class="card-title">Instant electronics prescription</h4>
+                <p class="card-text">As soon as the consultation is complete, doctor will provide the electronic
+                  prescription for the patient to download
+                  instantly or later.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card">
+            <div class="card-body text-start d-lg-flex d-md-block d-sm-flex">
+              <div class="img p-3">
+                <img src="assets/images/services/easy__payment.svg" alt="verified__doctors">
+              </div>
+              <div>
+                <h4 class="card-title">Easy payment options</h4>
+                <p class="card-text">Patient can make payment online using our secured payment gateway partner by bKash,
+                  Rocket, Nagad, debit card, credit
+                  cards and many more.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card">
+            <div class="card-body text-start d-lg-flex d-md-block d-sm-flex">
+              <div class="img p-3">
+                <img src="assets/images/services/better__consultation__quality.svg" alt="verified__doctors">
+              </div>
+              <div>
+                <h4 class="card-title">Better consultation quality</h4>
+                <p class="card-text">Our doctors are committed to provide the best service by spending enough time
+                  required for the consultation. We
+                  constantly improve our service from the rating and feedback provided by patients.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card">
+            <div class="card-body text-start d-lg-flex d-md-block d-sm-flex">
+              <div class="img p-3">
+                <img src="assets/images/services/health__history.svg" alt="verified__doctors">
+              </div>
+              <div>
+                <h4 class="card-title">Health history</h4>
+                <p class="card-text">Patient can get their consultation history and previous prescription digitally just
+                  in few taps.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card">
+            <div class="card-body text-start d-lg-flex d-md-block d-sm-flex">
+              <div class="img p-3">
+                <img src="assets/images/services/super__fast__support.svg" alt="verified__doctors">
+              </div>
+              <div>
+                <h4 class="card-title">Super fast support</h4>
+                <p class="card-text">Our dedicated customer service team is available to assist you resolving any issues
+                  or answering any queries. We are
+                  happy to help.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card">
+            <div class="card-body text-start d-lg-flex d-md-block d-sm-flex">
+              <div class="img p-3">
+                <img src="assets/images/services/medicine__delivered.svg" alt="verified__doctors">
+              </div>
+              <div>
+                <h4 class="card-title">Medicine delivered to your doorstep</h4>
+                <p class="card-text">We work very closely with our partners to deliver medicine at your doorstep.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card">
+            <div class="card-body text-start d-lg-flex d-md-block d-sm-flex">
+              <div class="img p-3">
+                <img src="assets/images/services/mobile__reminder.svg" alt="verified__doctors">
+              </div>
+              <div>
+                <h4 class="card-title">Medicine reminder</h4>
+                <p class="card-text">Do not worry about taking your medicine on time. DocTime App will remind you.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- .............specialists............ -->
+    <div class="row pt-5 mt-5 row-cols-1 text-center" id="specialists">
+      <div class="col">
+        <h2>Our Specialists</h2>
+        <hr>
+        <p class="ps-lg-5 pe-lg-5 p-0">24/7 qualified doctor's consultation facility for your family. Also big save on
+          diagnostic
+          tests, medicine and healthcare product purchases with life & health insurance coverage</p>
+      </div>
+      <div class="row g-3">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <div class="img">
+              <img src="assets/images/moynul.png" alt="moynul" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Dr. Moynul</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, officia.</p>
+              <a href="https://www.linkedin.com/in/moynul2k3/" class="card-link btn">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <div class="img">
+              <img src="assets/images/moynul.png" alt="moynul" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Dr. Moynul</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, officia.</p>
+              <a href="https://www.linkedin.com/in/moynul2k3/" class="card-link btn">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <div class="img">
+              <img src="assets/images/moynul.png" alt="moynul" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Dr. Moynul</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, officia.</p>
+              <a href="https://www.linkedin.com/in/moynul2k3/" class="card-link btn">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <div class="img">
+              <img src="assets/images/moynul.png" alt="moynul" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Dr. Moynul</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, officia.</p>
+              <a href="https://www.linkedin.com/in/moynul2k3/" class="card-link btn">View Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- .........Activity........ -->
+    <div class="row pt-5 mt-5 row-cols-1 text-center" id="activity">
+      <div class="col">
+        <h2>Our Activity</h2>
+        <hr>
+        <p class="ps-lg-5 pe-lg-5 p-0">You do not have to wait in line for hours or go to the hospital to take
+          healthcare
+          services. Easily consult a doctor in just 10 minutes on your device at home or office.</p>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="p-lg-5 pb-4 col-lg-6 col-12">
+            <h2><span>4.8</span></h2>
+            <h5>Out of 5 rating*</h5>
+            <h1 class="star">
+              <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                class='bx bxs-star'></i><i class='bx bxs-star'></i>
+            </h1>
+            <div class="d-flex align-items-center justify-content-center">
+              <div class="col-1">5 <i class='bx bxs-star'></i></div>
+              <div class="progress col-9">
+                <div class="progress-bar" role="progressbar" aria-label="Success example" style="width: 95%"
+                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <div class="col-1">4 <i class='bx bxs-star'></i></div>
+              <div class="progress col-9">
+                <div class="progress-bar" role="progressbar" aria-label="Success example" style="width: 45%"
+                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">45%</div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <div class="col-1">3 <i class='bx bxs-star'></i></div>
+              <div class="progress col-9">
+                <div class="progress-bar" role="progressbar" aria-label="Success example" style="width: 15%"
+                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">15%</div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <div class="col-1">2 <i class='bx bxs-star'></i></div>
+              <div class="progress col-9">
+                <div class="progress-bar" role="progressbar" aria-label="Success example" style="width: 2%"
+                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <div class="col-1">1 <i class='bx bxs-star'></i></div>
+              <div class="progress col-9">
+                <div class="progress-bar" role="progressbar" aria-label="Success example" style="width: 0%"
+                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          <div class="pt-lg-5 pb-5 col-lg-6 col-12 position-relative">
+            <img src="assets/images/image04.webp" class="opacity-50" alt="">
+            <h2 class="carousel-caption img_text">More than <span>90%</span> of users give us a 5 stars rating</h2>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ...........Blog........... -->
+    <div class="row pt-5 mt-5 row-cols-1 text-center" id="blog">
+      <div class="col">
+        <h2>Blog</h2>
+        <hr>
+        <p class="ps-lg-5 pe-lg-5 p-0">Consulting a healthcare professional, buying medicine, ordering lab tests and
+          improving
+          your health and wellbeing, all can be done 24/7 with DocTime!</p>
+      </div>
+      <div class="row g-3">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <div class="img position-relative d-flex align-items-center justify-content-center">
+              <a href="https://youtu.be/RvBtZFUYXy0" target="blank" class="position-absolute">
+                <i class='bx bxl-youtube youtube_icon'></i>
+              </a>
+              <img src="assets/images/image01.webp" alt="moynul" class="card-img-top">
+            </div>
+            <div class="card-body row">
+              <div class=" col-3">
+                <img src="assets/images/pro_moynul.jpg" alt="" class="card_profile">
+              </div>
+              <h4 class="card-title col-9 text-start align-self-center">Dr. Moynul Islam</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <div class="img position-relative d-flex align-items-center justify-content-center">
+              <a href="https://youtu.be/RvBtZFUYXy0" target="blank" class="position-absolute">
+                <i class='bx bxl-youtube youtube_icon'></i>
+              </a>
+              <img src="assets/images/image01.webp" alt="moynul" class="card-img-top">
+            </div>
+            <div class="card-body row">
+              <div class=" col-3">
+                <img src="assets/images/pro_moynul.jpg" alt="" class="card_profile">
+              </div>
+              <h4 class="card-title col-9 text-start align-self-center">Dr. Moynul Islam</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <div class="img position-relative d-flex align-items-center justify-content-center">
+              <a href="https://youtu.be/RvBtZFUYXy0" target="blank" class="position-absolute">
+                <i class='bx bxl-youtube youtube_icon'></i>
+              </a>
+              <img src="assets/images/image01.webp" alt="moynul" class="card-img-top">
+            </div>
+            <div class="card-body row">
+              <div class=" col-3">
+                <img src="assets/images/pro_moynul.jpg" alt="" class="card_profile">
+              </div>
+              <h4 class="card-title col-9 text-start align-self-center">Dr. Moynul Islam</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <div class="img position-relative d-flex align-items-center justify-content-center">
+              <a href="https://youtu.be/RvBtZFUYXy0" target="blank" class="position-absolute">
+                <i class='bx bxl-youtube youtube_icon'></i>
+              </a>
+              <img src="assets/images/image01.webp" alt="moynul" class="card-img-top">
+            </div>
+            <div class="card-body row">
+              <div class=" col-3">
+                <img src="assets/images/pro_moynul.jpg" alt="" class="card_profile">
+              </div>
+              <h4 class="card-title col-9 text-start align-self-center">Dr. Moynul Islam</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <div class="img position-relative d-flex align-items-center justify-content-center">
+              <a href="https://youtu.be/RvBtZFUYXy0" target="blank" class="position-absolute">
+                <i class='bx bxl-youtube youtube_icon'></i>
+              </a>
+              <img src="assets/images/image01.webp" alt="moynul" class="card-img-top">
+            </div>
+            <div class="card-body row">
+              <div class=" col-3">
+                <img src="assets/images/pro_moynul.jpg" alt="" class="card_profile">
+              </div>
+              <h4 class="card-title col-9 text-start align-self-center">Dr. Moynul Islam</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <div class="img position-relative d-flex align-items-center justify-content-center">
+              <a href="https://youtu.be/RvBtZFUYXy0" target="blank" class="position-absolute">
+                <i class='bx bxl-youtube youtube_icon'></i>
+              </a>
+              <img src="assets/images/image01.webp" alt="moynul" class="card-img-top">
+            </div>
+            <div class="card-body row">
+              <div class=" col-3">
+                <img src="assets/images/pro_moynul.jpg" alt="" class="card_profile">
+              </div>
+              <h4 class="card-title col-9 text-start align-self-center">Dr. Moynul Islam</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- ........#contact Form.......... -->
+    <div class="row pt-5 mt-5 row-cols-1 text-center" id="contact">
+      <div class="col">
+        <h2>Get in touch with us</h2>
+        <hr>
+        <p class="ps-lg-5 pe-lg-5 p-0">We're here to help. Send your query or question below and provide us with as much
+          details
+          as
+          possible. We will answer
+          your query as soon as possible. We aim to reply to your query within 24 hours.</p>
+      </div>
+      <div class="col">
+        <form action="" class="p-5">
+          <div class="form-floating">
+            <input type="text" class="form-control " placeholder="your first name">
+            <label for="name">First Name</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control " placeholder="your last name">
+            <label for="name">Last Name</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control " placeholder="email">
+            <label for="name">Email</label>
+          </div>
+          <div class="form-floating">
+            <input type="date" class="form-control" placeholder="date">
+            <label for="name">Date</label>
+          </div>
+          <div class="form-floating">
+            <select name="concern" id="concern" class="form-control">
+              <option value="option-1" class="form-control ">Video Consultation</option>
+              <option value="option-1" class="form-control ">Healthcare and protection plans</option>
+              <option value="option-1" class="form-control ">Diagnostic order</option>
+              <option value="option-1" class="form-control ">Medicine order</option>
+              <option value="option-1" class="form-control ">Technical issues</option>
+              <option value="option-1" class="form-control ">Report a bug</option>
+              <option value="option-1" class="form-control ">General questions</option>
+            </select>
+            <label for="concern">What is your concern?</label>
+          </div>
+          <div class="pt-2">
+            <textarea name="query" id="query" cols="30" rows="10" class="form-control query_text">Your Query</textarea>
+          </div>
+          <div class="pt-3">
+            <button type="submit" class="form-control p-2 btn">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- .........footer........ -->
+  <footer class="mt-5 p-3 bg-dark">
+    <div class="container d-flex justify-content-around">
+      <p>&copy;No Copyright</p>
+      <p>Designed by <a href="https://www.linkedin.com/in/moynul2k3/">Md. Moynul Islam</a></p>
+    </div>
+  </footer>
+
+
+  <!-- ..........script link......... -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
